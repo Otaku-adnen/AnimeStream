@@ -309,7 +309,7 @@ html.dark-mode,body.dark-mode{
     }
 
     body .slider .slides .imgPub div{
-        width: 120px;
+        width: 200px;
         font-size: 20px;
         height: 100%;
         display: flex;
@@ -366,7 +366,7 @@ html.dark-mode,body.dark-mode{
     }
     body .animeList{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
         gap: 15px;
     }
     body .animeList a{
@@ -418,7 +418,7 @@ html.dark-mode,body.dark-mode{
         background-color: var(--hidden);
     }
     body main section #search-container #search{
-        width: 95%;
+        width: 90%;
         height: 20px;
         padding: 10px;
         font-size: 16px;
@@ -929,7 +929,7 @@ html.dark-mode,body.dark-mode{
     }
     .season_anime section .list{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
         gap: 15px;
         list-style: none;
     }
@@ -982,7 +982,7 @@ html.dark-mode,body.dark-mode{
     }
     .anime_date div {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
         gap: 5px;
         width: 100%;
         justify-content: center;
