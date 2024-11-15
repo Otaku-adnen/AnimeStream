@@ -161,6 +161,7 @@ function searchAnimes() {
         return aTitle.localeCompare(bTitle);
     });
     const results = anime_list.filter(([id,anime]) => {
+        if (filters.condition && !anime.condition.includes(filters.condition)) {
             return false;
         }
 
