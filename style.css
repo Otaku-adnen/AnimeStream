@@ -366,7 +366,7 @@ html.dark-mode,body.dark-mode{
     }
     body .animeList{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(80px,1fr));
         gap: 15px;
     }
     body .animeList a{
@@ -929,7 +929,7 @@ html.dark-mode,body.dark-mode{
     }
     .season_anime section .list{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(80px,1fr));
         gap: 15px;
         list-style: none;
     }
@@ -982,7 +982,7 @@ html.dark-mode,body.dark-mode{
     }
     .anime_date div {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(80px,1fr));
         gap: 5px;
         width: 100%;
         justify-content: center;
