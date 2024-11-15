@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
-@media ((max-width: 599px) or (max-height: 399px)){
+@media ((max-width: 599px) or (max-height: 499px)){
     .main{
         display: grid;
         grid-template-areas: 
@@ -60,7 +60,7 @@ html.dark-mode,body.dark-mode{
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
-    @media ((max-height: 399px) or (min-width: 599px)){
+    @media ((max-height: 499px) or (min-width: 599px)){
         .main{
             display: grid;
             grid-template-areas: 
@@ -366,7 +366,7 @@ html.dark-mode,body.dark-mode{
     }
     body .animeList{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
         gap: 15px;
     }
     body .animeList a{
@@ -929,7 +929,7 @@ html.dark-mode,body.dark-mode{
     }
     .season_anime section .list{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
         gap: 15px;
         list-style: none;
     }
@@ -982,7 +982,7 @@ html.dark-mode,body.dark-mode{
     }
     .anime_date div {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
         gap: 5px;
         width: 100%;
         justify-content: center;
@@ -1179,7 +1179,7 @@ html.dark-mode,body.dark-mode{
 
 
 
-@media ((min-width: 600px) and (min-height: 400px)){
+@media ((min-width: 600px) and (min-height: 500px)){
     .main{
         display: grid;
         grid-template-areas: 
