@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const toggle = document.getElementById('themeToggle');
     const titleImg = document.getElementById('titleImg');
     const iframe = document.getElementById('iframe');
-    let activeFrame = localStorage.getItem("activeFrame");
+    let activeFrame = localStorage.getItem("activeFrame") || iframe.src;
 
     function applyTheme(theme) {
         if (theme === 'dark') {
