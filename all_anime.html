@@ -155,8 +155,12 @@ function updateButtonAppearance(key, value) {
 }
 
 function searchAnimes() {
-    const results = Object.entries(animes).filter(([id,anime]) => {
-        if (filters.condition && !anime.condition.includes(filters.condition)) {
+    const anime_list = Object.entries(animes).sort((a, b) => {
+        const aTitle = a[1].title;
+        const bTitle = b[1].title;
+        return aTitle.localeCompare(bTitle);
+    });
+    const results = anime_list.filter(([id,anime]) => {
             return false;
         }
 
