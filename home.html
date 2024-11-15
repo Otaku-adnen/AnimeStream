@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet">
+    <script lang="javascript" src="animes.js"></script>
+    <script lang="javascript" src="script.js"></script>
+</head>
+<body class="body">
+    <div class="pubs">
+        <div class="slider">
+            <div class="slides" id="slides">
+            </div>
+            <div class="navigation">
+                <button onclick="prevSlide()">&#10094;</button>
+                <button onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <h1>أخر التحديثات</h1>
+    <ul id="animeList" class="animeList"></ul>
+<script>
+    let index = 0;
+    function showSlide(i) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = slides.children.length;
+    index = (i + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${index * 100}%)`;
+}
+    function nextSlide() {
+        showSlide(index + 1);
+    }
+    function prevSlide() {
+        showSlide(index - 1);
+    }
+    
+    const slides=document.getElementById('slides');
+    const pubs=Object.entries(animes).splice(-5).reverse().forEach(([id,anime])=>{
+        const animeURL=document.createElement('a');
+        const imgPub=document.createElement('div');
+        const img=document.createElement('img');
+        const divTitle=document.createElement('div');
+        const title=document.createElement('h1');
+        imgPub.className='imgPub';
+        imgPub.style.backgroundImage=`url('${anime.image}')`;
+        imgPub.style.backgroundSize='cover';
+        imgPub.style.backgroundPosition='center';
+        animeURL.href='watch_anime.html?anime='+id;
+        animeURL.onclick=()=>{
+            localStorage.setItem('activeFrame',animeURL.href);
+        }
+        img.src=anime.image || 'placeholder.jpg';
+        img.alt=anime.title;
+        title.textContent=anime.title;
+        imgPub.appendChild(img);
+        divTitle.appendChild(title);
+        imgPub.appendChild(divTitle);
+        animeURL.appendChild(imgPub);
+        slides.appendChild(animeURL); 
+    });
+    setInterval(nextSlide, 3000);
+</script>
+</body>
+</html>

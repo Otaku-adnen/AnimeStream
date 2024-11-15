@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script lang="javascript" src="script.js"></script>
+    <script lang="javascript" src="animes.js"></script>
+</head>
+<body class="body">
+    <div class=".res-search">
+        <h3>نتائج البحث عن</h3>
+        <h4 id="search-query"></h4>
+    </div>
+    <div id="resList">hhhhh</div>
+    <!-- <script>
+        const search_query=document.getElementById('search-query');            
+        const resList=document.getElementById("resList");
+        console.log(resList);
+            if(resList){
+                alert('rr')
+            }else{
+                alert('pp')
+            };
+            results.forEach(([id,anime])=>{
+                const Item=document.createElement('li');
+                const Img=document.createElement('img');
+                const Span=document.createElement('span');
+                const URL=document.createElement('a');
+                URL.href='watch_anime.html?anime='+id;
+                Img.src=anime.image;
+                Img.alt=anime.title;
+                Span.textContent=anime.title;
+                Item.appendChild(Img);
+                Item.appendChild(Span);
+                URL.appendChild(Item);
+                resList.appendChild(URL);
+            });
+    </script> -->
+    <script lang="javascript" src="animes.js"></script>
+</body>
+</html>

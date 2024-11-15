@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Anime Stream</title>
+    <link href="style.css" rel="stylesheet">
+    <script lang="javascript" src="animes.js"></script>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <main class="main">
+        <header>
+            <div onclick="openSidebar()"><i class="fa-solid fa-bars" id="humburgar"></i></div>
+            <a href="" id="title"><img class="title" id="titleImg" src="title2.png" alt="Anime Stream" height="100%"></a>
+            <div class="theme-search">
+                <a href="anime_lists.html" onclick="save()" target="iframe"><i class="fa-solid fa-list"></i></a>
+                <i class="fas fa-search" id="button-search"></i>
+                <div id="theme"><img id="themeToggle" src="moon.png" alt="themeToggle"></div>
+            </div>
+        </header>
+        <div id="sideBarContainer" class="sideBarContainer" onclick="closeSidebar()"></div>
+        <nav id="nav" class="sideBar" onclick="closeSidebar()">
+            <ul id="navigationBar">
+                <label>القائمة</label>
+                <a href="home.html" onclick="home()" target="iframe"><li>الرئيسية</li></a>
+                <a href="all_anime.html" onclick="all_anime()" target="iframe"><li>قائمة الأنمي</li></a>
+                <a href="season_anime.html" onclick="season_anime()" target="iframe"><li>مواسم الأنمي</li></a>
+                <a href="episodes_date.html" onclick="episodes_date()" target="iframe"><li>مواعيد الحلقات</li></a>
+                <a href="anime_lists.html" onclick="save()"  id="anime_lists" target="iframe"><li>قائمتي</li></a>
+            </ul>
+        </nav>
+        <section>
+            <div id="search-container" onclick="a(event)">
+                <input type="text" id="search" placeholder="search" class="search" autocomplete="off">
+                <div id="suggestions"></div>
+            </div>
+            <iframe name="iframe" src="home.html" id="iframe" width="100%" height="100%"></iframe>
+        </section>
+    </main>
+    <script lang="javascript" src="script.js"></script>
+    <script>
+        const title=document.getElementById('title');
+        title.onclick=()=>{
+            const iframe=document.getElementById('iframe');
+            iframe.src='home.html';
+            localStorage.setItem('activeFrame',iframe.src);
+        }
+    suggestionsBox=document.getElementById('suggestions');
+    const search_container=document.getElementById('search-container');
+    const buttonSearch=document.getElementById('button-search');
+    </script>    
+</body>
+</html>

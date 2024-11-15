@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Animes</title>
+    <link href="style.css" rel="stylesheet">
+    <script lang="javascript" src="animes.js"></script>
+    <script lang="javascript" src="script.js"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <h1>تصفية الأنميات</h1>
+
+        <div class="filter-bar">
+            <div class="filter-group">
+                <label>الحالة:</label>
+                <button data-key="condition" data-value="مستمر">مستمر</button>
+                <button data-key="condition" data-value="مكتمل">مكتمل</button>
+                <button data-key="condition" data-value="لم يعرض بعد">لم يُعرض بعد</button>
+
+            </div>
+
+            <div class="filter-group">
+                <label>نوع الأنمي:</label>
+                <button data-key="type" data-value="مسلسل">مسلسل</button>
+                <button data-key="type" data-value="فيلم">فيلم</button>
+                <button data-key="type" data-value="أونا">أونا</button>
+                <button data-key="type" data-value="أوفا">أوفا</button>
+                <button data-key="type" data-value="خاصة">خاصة</button>
+            </div>
+
+            <div class="filter-group">
+                <label>الموسم:</label>
+                <button data-key="season" data-value="خريف">خريف</button>
+                <button data-key="season" data-value="صيف">صيف</button>
+                <button data-key="season" data-value="ربيع">ربيع</button>
+                <button data-key="season" data-value="شتاء">شتاء</button>
+            </div>
+
+            <div class="filter-group">
+                <label>العمر:</label>
+                <button data-key="age" data-value="+13">13+</button>
+                <button data-key="age" data-value="+17">17+</button>
+                <button data-key="age" data-value="للجميع">للجميع</button>
+            </div>
+
+             <details>
+                <summary>إختر السنة</summary>
+            <div class="filter-group">
+                <button data-key="releaseYear" data-value="2024">2024</button>
+                <button data-key="releaseYear" data-value="2023">2023</button>
+                <button data-key="releaseYear" data-value="2022">2022</button>
+                <button data-key="releaseYear" data-value="2021">2021</button>
+            </div>
+            </details>
+            
+
+            <details>
+                <summary>إختر النوع</summary>
+            <div class="filter-group">
+                <button data-key="genre" data-value="أكشن">أكشن</button>
+                <button data-key="genre" data-value="ألعاب">ألعاب</button>
+                <button data-key="genre" data-value="جنون">جنون</button>
+                <button data-key="genre" data-value="اطفال">أطفال</button>
+                <button data-key="genre" data-value="تاريخي">تاريخي</button>
+                <button data-key="genre" data-value="خيال">خيال</button>
+                <button data-key="genre" data-value="اسيكاي">اسيكاي</button>
+            </div>
+        </details>
+        </div>
+    </div>
+
+    <div id="results" class="anime-list">
+    </div>
+
+</body>
+</html>
+
+<script>
+const filters = {
+    condition: null,
+    type: null,
+    season: null,
+    age: null,
+    genre: [],
+    releaseYear: null
+};
+searchAnimes();
+function toggleFilter(key, value) {
+    if (key === "genre") {
+        if (filters.genre.includes(value)) {
+            filters.genre = filters.genre.filter(item => item !== value);
+        } else {
+            filters.genre.push(value);
+        }
+    } else {
+        filters[key] = filters[key] === value ? null : value;
+    }
+
+    updateButtonAppearance(key, value);
+    searchAnimes();
+}
+
+function updateButtonAppearance(key, value) {
+    const button = document.querySelector(`.filter-group button[data-key="${key}"][data-value="${value}"]`);
+    
+    if (key === "genre") {
+        if (filters[key].includes(value)) {
+            button.classList.add("selected");
+        } else {
+            button.classList.remove("selected");
+        }
+    } else {
+        document.querySelectorAll(`.filter-group button[data-key="${key}"]`).forEach(btn => {
+            btn.classList.remove("selected");
+        });
+        if (filters[key] === value) {
+            button.classList.add("selected");
+        }
+    }
+}
+
+function searchAnimes() {
+    const results = Object.entries(animes).filter(([id,anime]) => {
+        if (filters.condition && !anime.condition.includes(filters.condition)) {
+            return false;
+        }
+
+        if (filters.type && !anime.type.includes(filters.type)) {
+            return false;
+        }
+
+        const season = anime.release.split(" ")[0];
+        if (filters.season && filters.season !== season) {
+            return false;
+        }
+        
+        if (filters.age && !anime.type.includes(filters.age)) {
+            return false;
+        }
+        
+        if (filters.genre.length > 0 && !filters.genre.every(genre => anime.info.includes(genre))) {
+            return false;
+        }
+
+        if (filters.releaseYear && !anime.release.includes(filters.releaseYear)) {
+            return false;
+        }
+
+        return true;
+    });
+
+    displayResults(results);
+}
+
+function displayResults(results) {
+    const resultsContainer = document.getElementById("results");
+    resultsContainer.innerHTML = "";
+
+    if (results.length === 0) {
+        resultsContainer.innerHTML = "<p id='mess-res'>لم يتم العثور على نتائج</p>";
+        return;
+    }
+
+    results.forEach(([id,anime]) => {
+        const animeURL=document.createElement("a");
+        const anime_card = document.createElement("div");
+        const animeElement = document.createElement("div");
+        const anime_img = document.createElement("div");
+        animeURL.href='watch_anime.html?anime='+id;
+        anime_card.classList.add('anime-card');
+        anime_img.classList.add("anime-img");
+        animeElement.classList.add("anime-item");
+        anime_img.innerHTML=`
+            <img src="${anime.image}" alt="${anime.title}" class="anime-image"/>
+        `;
+        animeElement.innerHTML =`
+            
+            <h3 class='anime-title'>${anime.title}</h3>
+            <p> ${anime.condition}</p>
+            <p> ${anime.release}</p>
+            <p> ${anime.type}</p>
+            <p> ${anime.info.join(" , ")}</p>
+        `;
+        animeURL.onclick=()=>{
+            localStorage.setItem('activeFrame',animeURL.href);
+            a();
+        }
+        anime_card.appendChild(anime_img);
+        anime_card.appendChild(animeElement);
+        animeURL.appendChild(anime_card)
+        resultsContainer.appendChild(animeURL);
+    });
+}
+
+document.querySelectorAll(".filter-group button").forEach(button => {
+    button.addEventListener("click", function () {
+        const key = this.getAttribute("data-key");
+        const value = this.getAttribute("data-value");
+        toggleFilter(key, value);
+    });
+});
+</script>
+</body>
+</html>

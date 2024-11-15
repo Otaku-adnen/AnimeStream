@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Watch Anime</title>
+    <script lang="javascript" src="script.js"></script>
+    <script>
+        a()
+    </script>
+    <link href="style.css" rel="stylesheet">
+    <script lang="javascript" src="animes.js"></script>
+    
+</head>
+<body class="body">
+    <div id="play-lists-container" onclick="b(event)">
+        <ul class="lists" id="play-lists">
+            <div>
+                <li  class="lists"><input type="checkbox" class="lists" id="favorite">الأنميات المفضلة</li>
+                <li  class="lists"><input type="checkbox" class="lists" id="watched">تمت مشاهدته</li>
+                <li  class="lists"><input type="checkbox" class="lists" id="want-to-watch-it">أريد مشاهدته</li>
+                <li  class="lists"><input type="checkbox" class="lists" id="watching-later">أشاهده حاليا</li>
+                <li  class="lists"><input type="checkbox" class="lists" id="dont-want-watch-it">لا أريد مشاهدته</li>
+            </div>
+            <button class="lists" id="save">حفط</button>
+        </ul>
+    </div>
+    <div class="anime">
+        <div class="animeInfo">
+            <div class="img"><img id="animeImg" src="" alt="" width="100%" height="100%"></div>
+            <div class="animeCard">
+                <h2 id="animeTitle"></h2>
+                <div class="info arabic">
+                    <p id="condition"></p>
+                    <p id="release"></p>
+                    <p id="type"></p>
+                </div>
+            </div>
+            <i class="fa-solid fa-bookmark" id="saveIcon" onclick="show_lists_list()"></i>
+        </div>
+        <div class="episodesData">
+            <p id="story"></p>
+            <ul id="category"></ul>
+        </div>
+        <div class="episodesList" id="episodesList"></div>
+        <div class="videoPlay">
+            <video id="playAnime" controls width="100%" height="100%">
+                <source id="episodeSrc" src="" type="video/mp4">
+            </video>
+        </div>
+        <div id="disqus_thread"></div>
+    </div>
+    <script>
+
+
+        var disqus_config = function () {
+            this.page.url = window.location.href;
+            this.page.identifier = window.location.pathname + '#' + currentAnimeId; 
+        };
+        var disqus_config = function () {
+            this.page.url = window.location.href;
+            this.page.identifier = window.location.pathname+'#'+anime.id;
+        };
+    
+        (function() { 
+            var d = document, s = d.createElement('script');
+            s.src = 'https://anime-stream-5.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    
+    <script id="dsq-count-scr" src="//anime-stream-5.disqus.com/count.js" async></script>
+</body>
+</html>
