@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
-@media ((max-width: 599px) or (max-height: 299px)){
+@media ((max-width: 599px) or (max-height: 399px)){
     .main{
         display: grid;
         grid-template-areas: 
@@ -60,7 +60,7 @@ html.dark-mode,body.dark-mode{
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
-    @media ((max-height: 299px) or (min-width: 599px)){
+    @media ((max-height: 399px) or (min-width: 599px)){
         .main{
             display: grid;
             grid-template-areas: 
