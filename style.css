@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
-@media ((max-width: 599px) or (max-height: 499px)){
+@media ((max-width: 599px) or (max-height: 450px)){
     .main{
         display: grid;
         grid-template-areas: 
@@ -60,7 +60,7 @@ html.dark-mode,body.dark-mode{
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
-    @media ((max-height: 499px) or (min-width: 599px)){
+    @media ((max-height: 450px) or (min-width: 599px)){
         .main{
             display: grid;
             grid-template-areas: 
@@ -1179,7 +1179,7 @@ html.dark-mode,body.dark-mode{
 
 
 
-@media ((min-width: 600px) and (min-height: 500px)){
+@media ((min-width: 600px) and (min-height: 451px)){
     .main{
         display: grid;
         grid-template-areas: 
