@@ -392,6 +392,29 @@ animes = {
             {title:'حلقة 12', video: 'https://shahidha.net/files/38516/%5BAnimeiat.co%5DSpy_x_Family_2nd_Season_-_EP12%5B480p%5D.mp4'},
         ]
     },
+    Mushoku_Tensei:{
+        id: 'Mushoku_Tensei',
+        title: 'Mushoku Tensei: Isekai Ittara Honki Dasu',
+        image: 'https://cdn.myanimelist.net/images/anime/1530/117776.jpg',
+        condition: 'مكتمل',
+        release: 'شتاء 2021',
+        type: 'مسلسل | 11 حلقة | +17',
+        story: 'القصة تدور حول نيت ذو 34 عاماً يقتل في حادث سير ويجد نفسه في عالم من السحر. ويتم إعادة بعثة كطفل رضيع, محتفظاً بذكرياته السابقة. قبل حتى أن يتمكن من تحريك جسده جيداً, قرر عدم أرتكاب نفس خطأ الذي أرتكبه في حياته الأولى مجدداً وعيش حياة لا يوجد بها أي ندم. ولأنة لديه معرفة رجل في منتصف العمر, بعمر الثانية أصبح بالفعل معجزة ولديه قوة لا يمكن تخيلها بالنسبة لأي شخص في سنة او حتى أكبر منه. وهكذا يبدأ تاريخ روديس جرايرات, إبن السياف بول والمعالجة زاينث, حيث أنه يدخل عالم جديد ليصبح أقوى ساحر عرفته البشرية, مع قوة تنافس الإلهه نفسه.',
+        info: ['اسيكاي','ايتشي','خيال','دراما','مغامرة'],
+        episodes:[
+            {title:'حلقة 1', video: 'https://shahidha.net/files/31836/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/31837/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/31838/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/31835/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/31833/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/31834/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/31842/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 8', video: 'https://shahidha.net/files/31841/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP08%5B480p%5D.mp4'},
+            {title:'حلقة 9', video: 'https://shahidha.net/files/31839/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP09%5B480p%5D.mp4'},
+            {title:'حلقة 10', video: 'https://shahidha.net/files/31840/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP10%5B480p%5D.mp4'},
+            {title:'حلقة 11', video: 'https://shahidha.net/files/31843/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_-_EP11%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
