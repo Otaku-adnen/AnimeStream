@@ -418,7 +418,7 @@ html.dark-mode,body.dark-mode{
         background-color: var(--hidden);
     }
     body main section #search-container #search{
-        width: 90%;
+        width: 100vh;
         height: 20px;
         padding: 10px;
         font-size: 16px;
