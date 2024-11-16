@@ -439,6 +439,19 @@ animes = {
             {title:'حلقة 12', video: 'https://shahidha.net/files/32831/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_2nd_Season_-_EP12%5B480p%5D.mp4'},
         ]
     },
+    Mushoku_Tensei_Special:{
+        id: 'Mushoku_Tensei_Special',
+        title: 'Mushoku Tensei: Isekai Ittara Honki Dasu Special',
+        image: 'https://cdn.myanimelist.net/images/anime/1094/120148.jpg',
+        condition: 'مكتمل',
+        release: 'شتاء 2022',
+        type: 'خاصة | 1 حلقة | +17',
+        story: 'حلقة خاصة تتمحور حول كل من ايريس و رويجيرد والذي سيكمل مجريات أحداث الحلقة الخامسة من القسم الثاني.',
+        info: ['اسيكاي','ايتشي','خيال','دراما'],
+        episodes:[
+            {title:'الحلقة', video: 'https://shahidha.net/files/33772/%5BAnimeiat.co%5DMushoku_Tensei_Isekai_Ittara_Honki_Dasu_Special%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
