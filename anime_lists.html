@@ -13,11 +13,11 @@
     <div class="anime-lists">
     <nav class="lists-navigation">
         <ul>
-            <li onclick="show_list('favorite')" class="active"><i class="fas fa-heart"></i><label>الأنميات المفضلة</label></li>
-            <li onclick="show_list('watched')"><i class="fas fa-eye"></i><label>تمت مشاهدته</label></li>
-            <li onclick="show_list('want-to-watch-it')"><i class="fas fa-plus-circle"></i><label>أريد مشاهدته</label></li>
-            <li onclick="show_list('watching-later')"><i class="fas fa-play"></i><label>أشاهده حاليا</label></li>
-            <Li onclick="show_list('dont-want-watch-it')"><i class="fas fa-times"></i><label>لا أريد مشاهدته</label></Li>
+            <li onclick="show_list('favorite')" class="active"><i class="fas fa-heart" title='الأنميات المفضلة'></i><label>الأنميات المفضلة</label></li>
+            <li onclick="show_list('watched')"><i class="fas fa-eye" title='تمت مشاهدته'></i><label>تمت مشاهدته</label></li>
+            <li onclick="show_list('want-to-watch-it')"><i class="fas fa-plus-circle" title='أريد مشاهدته'></i><label>أريد مشاهدته</label></li>
+            <li onclick="show_list('watching-later')"><i class="fas fa-play" title='أشاهده حاليا'></i><label>أشاهده حاليا</label></li>
+            <Li onclick="show_list('dont-want-watch-it')"><i class="fas fa-times" title='لا أريد مشاهدته'></i><label>لا أريد مشاهدته</label></Li>
         </ul>
     </nav>
     <section>
@@ -68,6 +68,7 @@ function show_list(listName){
             const anime_img = document.createElement("div");
             const suppr=document.createElement('i');
             suppr.className='far fa-trash-alt';
+            suppr.title='حذف'
             suppr.id='suppr_icon';
             animeURL.href='watch_anime.html?anime='+anime.id;
             anime_card.className='anime-card';
