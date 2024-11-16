@@ -66,14 +66,7 @@ animes = {
         story: 'الموسم السابع من الأنمي.',
         info: ['شونين','قوة خارقة','أكشن','مدرسي'],
         episodes: [
-            { title: 'حلقة 1', video: 'https://s35.drop.download:182/d/mhcwszum4xcdvbi432rmbhs42wncrlqryijgsrczd64qvrs76p4ajenwhzolkqakn2tmtdrx/[Anime4up.cam]%20BNHA%20S7%20EP%2001%20FHD%20[480p].mp4' },
-            { title: 'حلقة 2', video: 'https://s37.drop.download:182/d/n7cvzrul4xcdvbi4gsrmrbamtpxdy2t35mgzjoavbpxfbslj3zqu3heqsyxftzeobrkmdrll/[Anime4up.cam]%20BNHAS7%20EP%2002%20FHD%20[480p].mp4' },
-            { title: 'حلقة 3', video: 'https://mover05.clicknupload.net:8080/d/f65h5yegl5yd7tr7slm4nkykc7z2axo56ncl3zapbgeluf7nmpzelvxfsyu2ymbzrveezqf3/[Anime4up.cam]%20BNHAS7%20EP%2003%20FHD%20[480p].mp4' },
-            { title: 'حلقة 4', video: 'https://s05.drop.download:182/d/gdcsiwuo4xcdvbi442rjdgyezllck3v6hcbbdz7qxnbmab25pirttqgjkbuxb73vcr7xpwkz/[Anime4up.cam]%20BNHAS7%20EP%2004%20FHD%20[480p].mp4' },
-            { title: 'حلقة 5', video: 'https://s30.drop.download:182/d/l7ct5hun4xcdvbi422rjnbydzytaruld2dcren3dfkrwo7er2utbk4qcawwus7dcm3fy2ff5/[Anime4up.cam]%20BNHAS7%20EP%2005%20FHD%20[480p].mp4' },
-            { title: 'حلقة 6', video: 'https://s40.drop.download:182/d/ntcvn6mm4xcdvbi4y6rjdfihyrhu2dl2zfbh5mbx64je5kvtldtrqssqvgycvlbrzipqnosl/[Anime4up.cam]%20BNHAS7%20EP%2006%20FHD%20[480p].mp4' },
-            { title: 'حلقة 7', video: 'https://s36.drop.download:182/d/mdcu5zul4xcdvbi4zkrmjdq3yvc6qi5fq6lxq6qt2nvdbcg52hbjrtwotzwijmlf3fllxcsl/[Anime4up.cam]%20BNHAS7%20EP%2007%20FHD%20[480p].mp4' }
-
+            
         ]
     },
     Detective_Conan: {
@@ -99,22 +92,7 @@ animes = {
         story: 'لو مينغفي طالب ثانوي عادي واجه حظًا سيئًا في حياته تلقى بشكل مفاجئ خطاب قبول من كلية كاسل وهي جامعة أجنبية خاصة واجه لو مينغفي صراعًا داخليًا بين القبول أو الرفض لكنه قرر في النهاية خوض التجربة والالتحاق بالجامعة بمجرد دخوله عالم التنين تغيرت حياة لو مينغفي بشكل جذري. واجه تحديات هائلة لم يكن يتوقعها وشرع في رحلة صعبة مليئة بالمخاطر والمواقف المثيرة. رحلة قتل التنين هذه تمثل رمزًا لتحديه لصعوبات الحياة وكسر قيودها، وتحويله من شخص عادي إلى بطل حقيقي.',
         info: ['مغامرة','خيال'],
         episodes: [
-            {title:'حلقة 0', video: 'https://ecdbj4bvl4zr.enaak-cdn.com/v/01/01499/jl6pj3saqym0_h/Dragon.Raja.E00.EgyDead.CoM.mp4?t=TNR24RmDwIvXmSBSwKztm8GwbWOMcAt2TuRW1yWU_hg&s=1718997213&e=129600&f=7495301&sp=400&i=102.107'},
-            {title:'حلقة 1', video: 'https://s37.drop.download:182/d/n7c6dqmp4xcdvbi47grnxvaf2bk5nod66nb33z2g5dsnn2j3nhjsao2vam5qribowpdyseum/[ZIMABADK]%20DR-EP01%20[480p].mp4'},
-            {title:'حلقة 2', video: 'https://mhmq0rpea9st.enaak-cdn.com/v/01/01527/9z312zz0o99z_h/Dragon.Raja.E02.EgyDead.CoM.mp4?t=FFecFVETNtd3LBXf2rdPyJikU6Q9ZjkkCDP-opO_MTo&s=1718996735&e=129600&f=7636755&sp=400&i=102.107'},
-            {title:'حلقة 3', video: 'https://imbrx07kzjrl.enaak-cdn.com/v/01/01586/nozi80b78hei_h/%7BZIMABADK%7D_KN8-EP03_[480p].mp4?t=USUysB4LaT2FtRks4W4uGTdhukZ9Ck3IX44N5Ft3IYQ&s=1719012373&e=129600&f=7932940&sp=400&i=102.168'},
-            {title:'حلقة 4', video: 'https://s36.drop.download:182/d/mdcz45uo4xcdvbi44wrjffc4sbrtbklkhhfipbarvvpakkqk3q67mapa6xj7mjaub35k7z7d/[ZIMABADK]%20DR-EP04%20[480p].mp4'},
-            {title:'حلقة 5', video: 'https://s39.drop.download:182/d/nxcqnd4n4xcdvbi42grjjxy43gywfficakihesi2q6i4i47nipznxaqqsl76zjthva6nurky/%7BZIMABADK%7D%20DR-EP05%20[480p].mp4'},
-            {title:'حلقة 6', video: 'https://s37.drop.download:182/d/n7c4t44n4xcdvbi42grjvgkzz4wwx75gbewzalc73su7ejlvbgywyw76ahuz3efjphcfh47d/%7BZIMABADK%7D%20DR-EP06%20[480p].mp4'},
-            {title:'حلقة 7', video: 'https://s31.drop.download:182/d/mtcrqqum4xcdvbi43crmzbaastfihdelqxr7vp42df4pvqleo62kk3vlh6wuuz7oephluypw/%7BZIMABADK%7D%20DR-EP07%20[480p].mp4'},
-            {title:'حلقة 8', video: 'https://s05.drop.download:182/d/gdc22q4m4xcdvbi43crm5c2uyjunlluiubo7ygay27xapjcjlg47im4o7zbh5qnbpalgaecd/%7BZIMABADK%7D%20DR-EP08%20[480p].mp4'},
-            {title:'حلقة 9', video: 'https://s40.drop.download:182/d/ntctbq4l4xcdvbi4gsrnvd222ztu5ljruy3pwjxbttuwhesi64mjtvvzpcj6uipwxtippb6n/[ZIMABADK]%20DR-EP09%20[480p].mp4'},
-            {title:'حلقة 10', video: 'https://s05.drop.download:182/d/gdcwj4ul4xcdvbi4zornhbaytnpickvym5gmdayja3glftljwbrvf7hl326d4bx7ivdksiyw/[ZIMABADK]%20DR-EP10%20[480p].mp4'},
-            {title:'حلقة 11', video: 'https://s30.drop.download:182/d/l7c5tneo4xcdvbi442rnncqmsgxhknmy27cvfhnuxyvjm7rvvwc7ijsjn6n7kd67zvmkie7z/[ZIMABADK]%20DR-EP11%20[480p].mp4'},
-            {title:'حلقة 12', video: 'https://s05.drop.download:182/d/gdcuddun4xcdvbi42grm3wyfzcydb2fnwcil5d543o2p6hguodzs3mokxwagafdyi32kbih2/[ZIMABADK]%20DR-EP12%20[480p].mp4'},
-            {title:'حلقة 13', video: 'https://s38.drop.download:182/d/n3c6d2em4xcdvbi4y6rjdxyysqsbfwdmblzkghemhkptsxz4k6kkg42qg6nwfsjm37upt6nr/[ZIMABADK]%20DR-EP13%20[480p].mp4'},
-            {title:'الحلقة 14', video: 'https://s33.drop.download:182/d/mlc2d2ul4xcdvbi4gwrjhfcvzt7sprfiqxdugbgz2b33uey5ym522qzeskrbfb74cnmr2dq5/[ZIMABADK]%20DR-EP14%20[480p].mp4'},
-            
+               
         ]
     },
     Kaijuu_8gou: {
@@ -127,17 +105,6 @@ animes = {
         story: 'بمعدلات ظهور كايجو الأعلى في العالم، لا تعتبر الهجمات القاتلة للوحوش على اليابان غريبةً أبدًا. يدخل في هذا السياق قوات الدفاع اليابانية، منظمة عسكرية مكلفة بالإطاحة بالكايجو. وكافكا هيبينو، الذي يعمل في تنظيف جثث الكايجو، دائما ما كان يحلم بالانضمام إلى القوات. ولكن عندما يحصل على فرصة جديدة لتحقيق حلم طفولته، يتعرض لتحول غير متوقع. كيف يمكن له محاربة الكايجو الآن بعد أن أصبح واحدًا منهم؟',
         info: ['خيال','أكشن','خيال علمي'],
         episodes: [
-            {title:'حلقة 1', video: 'https://xsiavtxi4ugv.enaak-cdn.com/v/01/01521/6wlzakov58d5_o/[ZIMABADK]_KN8-EP01_[480p].mp4'},
-            {title:'حلقة 2', video: 'https://ws2h1y9hyrzd.enaak-cdn.com/v/01/01548/r4sv7ii95yc9_h/[ZIMABADK]_KN8-EP02_[480p].mp4?t=s0m_4PQqAMPh9SOQbCAagTgLAdRDLSf6Oe2M9GBwkjo&s=1718998990&e=129600&f=7743656&sp=400&i=102.107'},
-            {title:'حلقة 3', video: 'https://imbrx07kzjrl.enaak-cdn.com/v/01/01586/nozi80b78hei_h/%7BZIMABADK%7D_KN8-EP03_[480p].mp4?t=f85toydnt0e3xFskiRmUHDfdDr3FRlJq0rYXO96z6tI&s=1719014276&e=129600&f=7932940&sp=400&i=102.169'},
-            {title:'حلقة 4', video: 'https://xxfhlndedamsr.enaak-cdn.com/v/01/01635/7659zt4vh7i1_h/%7BZIMABADK%7D_KN8-EP04_[480p].mp4?t=AiRjXxthCeqnN2v2nPy4OtTpKEhB97DXHLBgWVp9Q8U&s=1719014725&e=129600&f=8176329&sp=400&i=102.169'},
-            {title:'حلقة 5', video: 'https://kcrys3zctlsz.enaak-cdn.com/v/01/01664/s49310fkeyne_h/[ZIMABADK]_KN8-EP05_[480p].mp4?t=HVtzlXGtOR1AMDw7N3wlDLBnngNCqXrOZOo3YephdJQ&s=1719014814&e=129600&f=8323145&sp=400&i=102.169'},
-            {title:'حلقة 6', video: 'https://lopv6hj4e5ic.enaak-cdn.com/v/01/01706/jbjh4y7mrz9s_h/[ZIMABADK]_K8G-EP06_[480p].mp4?t=hk6hFlBti1E_p_5sbUbqK3gfJ43nm5LKqzsmpg_i53A&s=1719014905&e=129600&f=8534790&sp=400&i=102.169'},
-            {title:'حلقة 7', video: 'https://w5713kt9lwm7.enaak-cdn.com/v/01/01761/p802f357flb8_h/[ZIMABADK]_K8G-EP07_[480p].mp4?t=JuwVdqXtWrvxrXSdoICKOqYK5Z4Mzay2xZ7aoJJ-J4s&s=1719015124&e=129600&f=8808001&sp=400&i=102.169'},
-            {title:'حلقة 8', video: 'https://nvo5rogr2tgj.enaak-cdn.com/v/01/01815/3xtpws3k55ca_h/[ZIMABADK]_KN8-EP08_[480p].mp4?t=BijwU-IaI5DcMssHaB21VB19axlNy4gjW3vZEhjCnu8&s=1719015190&e=129600&f=9076242&sp=400&i=102.169'},
-            
-            {title:'حلقة 10', video: 'https://fqzvt2kps7980.enaak-cdn.com/v/01/01875/1t2mw8y5fqlr_h/[ZIMABADK]_KN8-EP10_[480p].mp4?t=fOEqoBt9DOTiUis6sdELuXfVpu3yvED_hcf19vGtubc&s=1719015439&e=129600&f=9379441&sp=400&i=102.169'}
-            
 
         ]
     },
@@ -151,16 +118,7 @@ animes = {
         story: 'القصة تدور في عالم بديل يُدعى ياماوتشي والذي تحكمه عشيرة ياتاغارو أفراد هذه العشيرة قادرون على التحول بين هيئة بشرية وهيئة غراب يُختار يوكيا وهو فتى ياتاغارو غريب الأطوار لخدمة الأمير يوكيا لديه قدرة خاصة تسمح له بقراءة ذكريات الآخرين عند لمسهم هذه القدرة تجعله هدفًا للعديد من الأعداء الذين يرغبون في استغلاله أو التخلص منه.',
         info: ['تاريخي','أكشن','خارق للطبيعة'],
         episodes:[
-            {title:'حلقة 1', video: 'https://typri417iojq.enaak-cdn.com/v/01/01522/0i1nxcokl741_o/[ZIMABADK]_KWAWE-EP01_[480p].mp4?t=qk6EeaGdEI_-SJWs6NUS0P74pAQBqVMaD5nAv7mWAcI&s=1718999215&e=129600&f=7610477&sp=400&i=102.107'},
-            {title:'حلقة 2', video: 'https://x3wfr8x0vkhr.enaak-cdn.com/v/01/01522/mxtri4x2w9fo_o/[ZIMABADK]_KWAWE-EP02_[480p].mp4?t=a3ru8MiT6u8U7Ukp0lIUMT7RHNYX_pSxjpZq5uGdNJI&s=1719016031&e=129600&f=7610467&sp=400&i=102.169'},
-            {title:'حلقة 3', video: 'https://bqycounur1y4.enaak-cdn.com/v/01/01549/f5adkcdb367c_h/[ZIMABADK]_YTRDNCIM-EP03_[480p].mp4?t=tNhhXihNXT-gJyT5Dz-Qi9StnHEaMXl9_07tfN-h0VQ&s=1719016544&e=129600&f=7747517&sp=400&i=102.169'},
-            {title:'حلقة 4', video: 'https://vpiivprd7co4q.enaak-cdn.com/v/01/01586/tahieoc5h75t_h/%7BZIMABADK%7D_YTRDNCIM-EP04_[480p].mp4?t=39uGAd0Nu2qXNjYY8Du08NuBcz0wUey-dkTBTTIRGEM&s=1719016621&e=129600&f=7933416&sp=400&i=102.169'},
-            {title:'حلقة 5', video: 'https://l1oiyjrgqdec.enaak-cdn.com/v/01/01635/10xwem3z6a8t_h/[ZIMABADK]_KWAWE-EP05_[480p].mp4?t=_tm1AgrmR6K2gW1DIxN_v_XVQzuv06oOkO382WQdmWo&s=1719016691&e=129600&f=8179433&sp=400&i=102.169'},
-            {title:'حلقة 6', video: 'https://lopv6hj4e5ic.enaak-cdn.com/v/01/01665/gl2zym7thmmk_h/[ZIMABADK]_YGTRDNCIM-EP06_[480p].mp4?t=mpl95eU2bwf0l7MMSWKTjzrAoFD9zOo-MEyfW6IEUN4&s=1719016768&e=129600&f=8327957&sp=400&i=102.169'},
-            {title:'حلقة 7', video: 'https://cutra8jduv80.enaak-cdn.com/v/01/01707/2iw03l6zj1h2_h/[ZIMABADK]_YTRDNCIM-EP07_[480p].mp4?t=I3aoray1vrA00I-P_xAul6M71HKfJ31Rx47Do3U8iFs&s=1719016844&e=129600&f=8537816&sp=400&i=102.169'},
-            {title:'حلقة 8', video: 'https://roepk5smwkiz0.enaak-cdn.com/v/01/01762/9kfgdugn8nlu_h/[ZIMABADK]_KWAWE-EP08_[480p].mp4?t=ccWDnVP2ur8wWsAAv-tAo24xZSJ_4Rk0gtRHumOj9hE&s=1719016897&e=129600&f=8811600&sp=400&i=102.169'},
-            {title:'حلقة 9', video: 'https://bqycounur1y4.enaak-cdn.com/v/01/01816/pn79w8auh2zt_h/[ZIMABADK]_KWAWE-EP09_[480p].mp4?t=3FA9RK0h3RfEs02oTU9h3whhF0Rta5vzwy17IYccE9E&s=1719016966&e=129600&f=9084108&sp=400&i=102.169'}
-
+          
         ]
     },
     Kuroshitsuji_Kishuku_Gakkou_hen:{
