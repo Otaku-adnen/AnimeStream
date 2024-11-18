@@ -509,6 +509,25 @@ animes = {
             {title:'حلقة 20', video: 'https://shahidha.net/files/37839/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP20%5B480p%5D.mp4'},
         ]
     },
+    Kage_no_Jitsuryokusha_ni_Naritakute_2nd_Season:{
+        id: 'Kage_no_Jitsuryokusha_ni_Naritakute_2nd_Season',
+        title: 'Kage no Jitsuryokusha ni Naritakute! 2nd Season',
+        image: 'https://cdn.myanimelist.net/images/anime/1938/138295.jpg',
+        condition: 'مستمر',
+        release: 'خريف 2023',
+        type: 'مسلسل | 12 حلقة | +17',
+        story: 'الموسم الثاني من أنمي Kage no Jitsuryokusha ni Naritakute!',
+        info: ['أكشن','اسيكاي','خيال','كوميديا'],
+        episodes:[
+            {title:'حلقة 1', video: 'https://shahidha.net/files/37844/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/37843/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/37846/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/37845/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/37842/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/37847/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/38113/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP07%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
