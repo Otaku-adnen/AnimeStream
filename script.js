@@ -75,3 +75,11 @@ function closeSidebar() {
     document.getElementById("nav").classList.remove('open'); 
     document.getElementById("sideBarContainer").style.display='none';
 }
+
+function handleBackButton(event) {
+    const sidebar = document.getElementById("nav");
+    if (sidebar.style.width !== "0") {
+        closeSidebar();
+        event.preventDefault();
+    }
+}
