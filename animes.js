@@ -477,6 +477,31 @@ animes = {
             {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
         ]
     },
+    Kage_no_jitsuryokusha_ni_Naritakute:{
+        id: 'Kage_no_jitsuryokusha_ni_Naritakute',
+        title: 'Kage no jitsuryokusha ni Naritakute!',
+        image: 'https://cdn.myanimelist.net/images/anime/1898/138005.jpg',
+        condition: 'مكتمل',
+        release: 'خريف 2022',
+        type: 'مسلسل | 20 حلقة | +17',
+        story: 'الجزء الثاني من أنمي Mushoku Tensei: Isekai Ittara Honki Dasu',
+        info: ['اسيكاي','ايتشي','خيال','دراما','مغامرة'],
+        episodes:[
+            {title:'حلقة 0', video: 'https://shahidha.net/files/36869/%5BAnimeiat.co%5DMushoku_Tensei_II-_Isekai_Ittara_Honki_Dasu_-_EP00%5B480p%5D.mp4'},
+            {title:'حلقة 1', video: 'https://shahidha.net/files/36868/%5BAnimeiat.co%5DMushoku_Tensei_II-_Isekai_Ittara_Honki_Dasu_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/37185/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/37184/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/37182/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/37179/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/37180/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/37181/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 8', video: 'https://shahidha.net/files/37183/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP08%5B480p%5D.mp4'},
+            {title:'حلقة 9', video: 'https://shahidha.net/files/37306/%5BAnimeiat.co%5DMushoku_Tensei_II-_Isekai_Ittara_Honki_Dasu_-_EP09%5B480p%5D.mp4'},
+            {title:'حلقة 10', video: 'https://shahidha.net/files/37561/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP10%5B480p%5D.mp4'},
+            {title:'حلقة 11', video: 'https://shahidha.net/files/37560/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP11%5B480p%5D.mp4'},
+            {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
