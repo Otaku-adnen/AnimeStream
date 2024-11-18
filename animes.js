@@ -477,10 +477,10 @@ animes = {
             {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
         ]
     },
-    Kage_no_jitsuryokusha_ni_Naritakute:{
+    /*Kage_no_jitsuryokusha_ni_Naritakute:{
         id: 'Kage_no_jitsuryokusha_ni_Naritakute',
         title: 'Kage no jitsuryokusha ni Naritakute!',
-        image: 'https://cdn.myanimelist.net/images/anime/1898/138005.jpg',
+        image: '',
         condition: 'مكتمل',
         release: 'خريف 2022',
         type: 'مسلسل | 20 حلقة | +17',
@@ -501,7 +501,7 @@ animes = {
             {title:'حلقة 11', video: 'https://shahidha.net/files/37560/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP11%5B480p%5D.mp4'},
             {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
         ]
-    },
+    },*/
 };
 
 
