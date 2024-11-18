@@ -477,7 +477,7 @@ animes = {
             {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
         ]
     },
-    /*Kage_no_jitsuryokusha_ni_Naritakute:{
+    Kage_no_jitsuryokusha_ni_Naritakute:{
         id: 'Kage_no_jitsuryokusha_ni_Naritakute',
         title: 'Kage no jitsuryokusha ni Naritakute!',
         image: 'https://cdn.myanimelist.net/images/anime/1091/128729.jpg',
@@ -499,8 +499,16 @@ animes = {
             {title:'حلقة 10', video: 'https://shahidha.net/files/35518/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP10%5B480p%5D.mp4'},
             {title:'حلقة 11', video: 'https://shahidha.net/files/37560/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP11%5B480p%5D.mp4'},
             {title:'حلقة 12', video: 'https://shahidha.net/files/37562/%5BAnimeiat.co%5DMushoku_Tensei_II_Isekai_Ittara_Honki_Dasu_-_EP12%5B480p%5D.mp4'},
+            {title:'حلقة 13', video: 'https://shahidha.net/files/35176/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 14', video: 'https://shahidha.net/files/35175/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 15', video: 'https://shahidha.net/files/35174/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 16', video: 'https://shahidha.net/files/35173/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 17', video: 'https://shahidha.net/files/35516/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 18', video: 'https://shahidha.net/files/35520/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 19', video: 'https://shahidha.net/files/35517/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 20', video: 'https://shahidha.net/files/35519/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP08%5B480p%5D.mp4'},
         ]
-    },*/
+    },
 };
 
 
