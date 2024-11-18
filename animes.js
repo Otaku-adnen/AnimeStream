@@ -485,7 +485,7 @@ animes = {
         release: 'خريف 2022',
         type: 'مسلسل | 20 حلقة | +17',
         story: 'الجزء الثاني من أنمي Mushoku Tensei: Isekai Ittara Honki Dasu',
-        info: ['اسيكاي','ايتشي','خيال','دراما','مغامرة'],
+        info: ['أكشن','اسيكاي','خيال','كوميديا'],
         episodes:[
             {title:'حلقة 0', video: 'https://shahidha.net/files/36869/%5BAnimeiat.co%5DMushoku_Tensei_II-_Isekai_Ittara_Honki_Dasu_-_EP00%5B480p%5D.mp4'},
             {title:'حلقة 1', video: 'https://shahidha.net/files/36868/%5BAnimeiat.co%5DMushoku_Tensei_II-_Isekai_Ittara_Honki_Dasu_-_EP01%5B480p%5D.mp4'},
