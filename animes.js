@@ -547,6 +547,38 @@ animes = {
             {title:'حلقة 7', video: 'https://shahidha.net/files/35777/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP07%5B480p%5D.mp4'},
         ]
     },
+    Mairimashita_Iruma_kun:{
+        id: 'Mairimashita_Iruma_kun',
+        title: 'Mairimashita! Iruma-kun',
+        image: 'https://cdn.myanimelist.net/images/anime/1009/103187.jpg',
+        condition: 'مكتمل',
+        release: 'خريف 2019',
+        type: 'مسلسل | 23 حلقة | +13',
+        story: 'تتحدث القصة عن إيروما سوزوكي والذي تم بيعه إلى الشيطان من قبل والديه الغير مسؤولين مقابل المال. ولكن بعكس ما توقعه إيرما فلم يقم الشيطان بأكله أو تعذيبه بل يطلب من أنه يصبح حفيده لأنه لطالما حلم بأن يملك حفيدًا ولكنه أعزب فيوافق إيرما بعد إلحاح شديد من الشيطان على أن يصبح حفيده فيتم نقله إلى مدرسة الشياطين ومن هناك تبدأ حياة إيرما في عالم الشياطين.',
+        info: ['شونين','اسيكاي','خيال','كوميديا','مدرسي'],
+        episodes:[
+            /*{title:'حلقة 1', video: 'https://shahidha.net/files/35176/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/35175/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/35174/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/35173/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/35516/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/35520/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/35517/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 8', video: 'https://shahidha.net/files/35519/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP08%5B480p%5D.mp4'},
+            {title:'حلقة 9', video: 'https://shahidha.net/files/35521/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP09%5B480p%5D.mp4'},
+            {title:'حلقة 10', video: 'https://shahidha.net/files/35518/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP10%5B480p%5D.mp4'},
+            {title:'حلقة 11', video: 'https://shahidha.net/files/35526/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP11%5B480p%5D.mp4'},
+            {title:'حلقة 12', video: 'https://shahidha.net/files/35525/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP12%5B480p%5D.mp4'},
+            {title:'حلقة 13', video: 'https://shahidha.net/files/35524/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP13%5B480p%5D.mp4'},
+            {title:'حلقة 14', video: 'https://shahidha.net/files/35527/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP14%5B480p%5D.mp4'},
+            {title:'حلقة 15', video: 'https://shahidha.net/files/35523/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP15%5B480p%5D.mp4'},
+            {title:'حلقة 16', video: 'https://shahidha.net/files/35522/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP16%5B480p%5D.mp4'},
+            {title:'حلقة 17', video: 'https://shahidha.net/files/35528/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP17%5B480p%5D.mp4'},
+            {title:'حلقة 18', video: 'https://shahidha.net/files/37840/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP18%5B480p%5D.mp4'},
+            {title:'حلقة 19', video: 'https://shahidha.net/files/37841/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP19%5B480p%5D.mp4'},
+            {title:'حلقة 20', video: 'https://shahidha.net/files/37839/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_-_EP20%5B480p%5D.mp4'},*/
+        ]
+    },
 };
 
 
