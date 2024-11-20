@@ -436,7 +436,6 @@ html.dark-mode,body.dark-mode{
         border-radius: 0 0 5px 5px;
         border: 1px solid white;
         display: none;
-        z-index: 1000;
         list-style: none;
     }
     body main section #search-container #suggestions::-webkit-scrollbar{
