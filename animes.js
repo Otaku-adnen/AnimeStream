@@ -528,6 +528,25 @@ animes = {
             {title:'حلقة 7', video: 'https://shahidha.net/files/38113/%5BAnimeiat.co%5DKage_no_Jitsuryokusha_ni_Naritakute%21_2nd_Season_-_EP07%5B480p%5D.mp4'},
         ]
     },
+    Eiyuuou_Bu_wo_Kiwameru_Tame_Tenseisu:{
+        id: 'Eiyuuou_Bu_wo_Kiwameru_Tame_Tenseisu',
+        title: 'Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀',
+        image: 'https://cdn.myanimelist.net/images/anime/1044/129594.jpg',
+        condition: 'مستمر',
+        release: 'شتاء 2023',
+        type: 'مسلسل | 12 حلقة | +13',
+        story: 'تدور أحداث القصة عن البطل الملك إينغليس من فراش الموت في الإمبراطورية التي بناها بيده القوية. بعد أن كرس حياته للحكم وسلامة رعاياه، كانت رغبته الوحيدة التي لم تتحقق هي أن يعيش مرة أخرى لكن لنفسه هذه المرة ويخوض حياة المحارب التي كانت قد كرس نفسه لها قبل صعوده إلى السلطة تستمع الإلهة أليستيا إلى طلبه وتبتسم له وتدفع بروحه إلى المستقبل البعيد. تعمل الآلهة بطرق غامضة – يعاد تجسيد إنغليس الآن كابنة لعائلة نبيلة صغيرة وفي حفل بلوغ سن الرشد الأول لها في السادسة من عمرها، وجدت أنها غير مؤهلة لبدء لقب الفروسية! ومع ذلك، تعتبر إنغليس هذه الانتكاسة كتحدي لتتغلب عليه. ”ليس الدم الذي يجري في عروقك هو الذي يصنع الفارس بل الدماء التي سفكتها في ساحة المعركة!“ تتمحور هذه القصة حول شابة يعاد تجسيدها لتتقن فن السيف.',
+        info: ['أكشن','خيال'],
+        episodes:[
+            {title:'حلقة 1', video: 'https://shahidha.net/files/35459/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/35460/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/35461/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/35776/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/35778/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/35775/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/35777/%5BAnimeiat.co%5DEiyuuou%2C_Bu_wo_Kiwameru_Tame_Tenseisu_Soshite%2C_Sekai_Saikyou_no_Minarai_Kishi%E2%99%80_-_EP07%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
