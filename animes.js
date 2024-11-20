@@ -615,6 +615,35 @@ animes = {
             {title:'حلقة 21', video: 'https://shahidha.net/files/32830/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP21%5B480p%5D.mp4'},
         ]
     },
+    Mairimashita_Iruma_kun_3rd_Season:{
+        id: 'Mairimashita_Iruma_kun_3rd_Season',
+        title: 'Mairimashita! Iruma-kun 3rd Season',
+        image: 'https://cdn.myanimelist.net/images/anime/1688/128720.jpg',
+        condition: 'مستمر',
+        release: 'خريف 2022',
+        type: 'مسلسل | 21 حلقة | +13',
+        story: 'الموسم الثالث من أنمي Mairimashita! Iruma-kun',
+        info: ['شونين','اسيكاي','خيال','كوميديا','مدرسي'],
+        episodes:[
+            {title:'حلقة 1', video: 'https://shahidha.net/files/35429/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/35428/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/35427/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/35430/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/35426/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/35434/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/35433/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 8', video: 'https://shahidha.net/files/35432/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP08%5B480p%5D.mp4'},
+            {title:'حلقة 9', video: 'https://shahidha.net/files/35435/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP09%5B480p%5D.mp4'},
+            {title:'حلقة 10', video: 'https://shahidha.net/files/35431/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP10%5B480p%5D.mp4'},
+            {title:'حلقة 11', video: 'https://shahidha.net/files/35438/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP11%5B480p%5D.mp4'},
+            {title:'حلقة 12', video: 'https://shahidha.net/files/35440/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP12%5B480p%5D.mp4'},
+            {title:'حلقة 13', video: 'https://shahidha.net/files/35436/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP13%5B480p%5D.mp4'},
+            {title:'حلقة 14', video: 'https://shahidha.net/files/35439/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP14%5B480p%5D.mp4'},
+            {title:'حلقة 15', video: 'https://shahidha.net/files/35437/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP15%5B480p%5D.mp4'},
+            {title:'حلقة 16', video: 'https://shahidha.net/files/35695/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP16%5B480p%5D.mp4'},
+            {title:'حلقة 17', video: 'https://shahidha.net/files/35696/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_3rd_Season_-_EP17%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
