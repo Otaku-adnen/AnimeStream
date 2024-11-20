@@ -582,6 +582,39 @@ animes = {
             {title:'حلقة 23', video: 'https://shahidha.net/files/24025/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_-_EP23%5B480p%5D.mp4'},
         ]
     },
+    Mairimashita_Iruma_kun_2nd_Season:{
+        id: 'Mairimashita_Iruma_kun_2nd_Season',
+        title: 'Mairimashita! Iruma-kun 2nd Season',
+        image: 'https://cdn.myanimelist.net/images/anime/1527/113656.jpg',
+        condition: 'مكتمل',
+        release: 'ربيع 2021',
+        type: 'مسلسل | 21 حلقة | +13',
+        story: 'الموسم الثاني من أنمي Mairimashita! Iruma-kun',
+        info: ['شونين','اسيكاي','خيال','كوميديا','مدرسي'],
+        episodes:[
+            {title:'حلقة 1', video: 'https://shahidha.net/files/28224/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP01%5B480p%5D.mp4'},
+            {title:'حلقة 2', video: 'https://shahidha.net/files/28586/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP02%5B480p%5D.mp4'},
+            {title:'حلقة 3', video: 'https://shahidha.net/files/28648/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP03%5B480p%5D.mp4'},
+            {title:'حلقة 4', video: 'https://shahidha.net/files/28912/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP04%5B480p%5D.mp4'},
+            {title:'حلقة 5', video: 'https://shahidha.net/files/29327/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP05%5B480p%5D.mp4'},
+            {title:'حلقة 6', video: 'https://shahidha.net/files/29741/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP06%5B480p%5D.mp4'},
+            {title:'حلقة 7', video: 'https://shahidha.net/files/30011/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP07%5B480p%5D.mp4'},
+            {title:'حلقة 8', video: 'https://shahidha.net/files/30101/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP08%5B480p%5D.mp4'},
+            {title:'حلقة 9', video: 'https://shahidha.net/files/30167/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP09%5B480p%5D.mp4'},
+            {title:'حلقة 10', video: 'https://shahidha.net/files/30362/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP10%5B480p%5D.mp4'},
+            {title:'حلقة 11', video: 'https://shahidha.net/files/30537/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP11%5B480p%5D.mp4'},
+            {title:'حلقة 12', video: 'https://shahidha.net/files/30570/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP12%5B480p%5D.mp4'},
+            {title:'حلقة 13', video: 'https://shahidha.net/files/30779/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP13%5B480p%5D.mp4'},
+            {title:'حلقة 14', video: 'https://shahidha.net/files/30858/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP14%5B480p%5D.mp4'},
+            {title:'حلقة 15', video: 'https://shahidha.net/files/30985/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP15%5B480p%5D.mp4'},
+            {title:'حلقة 16', video: 'https://shahidha.net/files/31106/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP16%5B480p%5D.mp4'},
+            {title:'حلقة 17', video: 'https://shahidha.net/files/31157/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP17%5B480p%5D.mp4'},
+            {title:'حلقة 18', video: 'https://shahidha.net/files/31156/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP18%5B480p%5D.mp4'},
+            {title:'حلقة 19', video: 'https://shahidha.net/files/31183/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP19%5B480p%5D.mp4'},
+            {title:'حلقة 20', video: 'https://shahidha.net/files/32828/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP20%5B480p%5D.mp4'},
+            {title:'حلقة 21', video: 'https://shahidha.net/files/32830/%5BAnimeiat.co%5DMairimashita%21_Iruma-kun_2nd_Season_-_EP21%5B480p%5D.mp4'},
+        ]
+    },
 };
 
 
