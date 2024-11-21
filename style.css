@@ -925,6 +925,7 @@ html.dark-mode,body.dark-mode{
         display: flex;
         justify-content: center;
         align-items: center;
+        border: 1px solid red;
         text-decoration: underline;
     }
     .season_anime section .list{
@@ -932,6 +933,7 @@ html.dark-mode,body.dark-mode{
         grid-template-columns: repeat(auto-fill, minmax(90px,1fr));
         gap: 15px;
         width: 100%;
+        background-color: white;
         position: relative;
         list-style: none;
     }
