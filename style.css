@@ -921,7 +921,6 @@ html.dark-mode,body.dark-mode{
         font-size: 20px;
         font-weight: bold;
         margin: 10px;
-        position: absolute ;
         display: flex;
         justify-content: center;
         align-items: center;
