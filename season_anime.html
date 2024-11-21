@@ -42,19 +42,19 @@
             const next=document.getElementById('next-season');
             switch(season){
                 case 'current':
-                    current.style.display='flex';
+                    current.style.display='block';
                     previous.style.display='none';
                     next.style.display='none';
                     break;
                 case 'previous':
                     current.style.display='none';
-                    previous.style.display='flex';
+                    previous.style.display='block';
                     next.style.display='none';
                     break;
                 case 'next':
                     current.style.display='none';
                     previous.style.display='none';
-                    next.style.display='flex';
+                    next.style.display='block';
                     break;
             }
         }
