@@ -920,7 +920,7 @@ html.dark-mode,body.dark-mode{
     .season_anime section .list .Pseason{
         font-size: 20px;
         font-weight: bold;
-        margin: 10px;
+        
         display: flex;
         justify-content: center;
         align-items: center;
