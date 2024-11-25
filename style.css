@@ -263,7 +263,7 @@ html.dark-mode,body.dark-mode{
         word-wrap: break-word;
     }
      
-    @media (min-width: 599px) {
+    @media (max-width: 599px) {
         .slider {
             width: 100%;
             height: 200px;
@@ -276,7 +276,7 @@ html.dark-mode,body.dark-mode{
         .slides {
             display: flex;
             transition: transform 0.5s ease-in-out;
-            width: 120%;
+            width: 170%;
         }
         
         .slides a {
