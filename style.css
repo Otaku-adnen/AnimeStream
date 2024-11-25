@@ -263,7 +263,7 @@ html.dark-mode,body.dark-mode{
         word-wrap: break-word;
     }
      
-    @media (min-width: 350px) {
+    @media (max-width: 599px) {
         .slider {
             width: 100%;
             height: 200px;
