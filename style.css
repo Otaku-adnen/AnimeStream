@@ -288,15 +288,15 @@ html.dark-mode,body.dark-mode{
             text-decoration: none;
         }
         body .slider .slides .imgPub div{
-            width: 200px;
-            font-size: 20px;
-            height: 100%;
-/*             display: flex;
-            justify-content: center;
-            align-items: center; */
-            white-space: normal;  
-            word-wrap: break-word;
-        }
+        width: 200px;
+        font-size: 20px;
+        height: 100%;
+/*         display: flex;
+        justify-content: center;
+        align-items: center; */
+        white-space: normal;  
+        word-wrap: break-word;
+    }
     }
     .imgPub {
         top: 0;
@@ -308,7 +308,6 @@ html.dark-mode,body.dark-mode{
         border-radius: 8px;
         overflow: hidden;
     }
-    
     body .slider .slides div{
         width: 100%; 
         height: 100%;
@@ -328,7 +327,12 @@ html.dark-mode,body.dark-mode{
         border-radius: 5px;
         position: relative;
     }
-    
+    body .slider .slides .imgPub div h1 {
+        width: 100%;
+        color: black;
+        text-shadow: 3px 3px 5px black; 
+        font-size: 20px;
+    }
     body .slider .navigation {
         position: absolute;
         width: 100%;
