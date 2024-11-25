@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
- @media ((max-width: 599px) or (max-height: 400px)){ 
+ @media ((max-width: 13.6cm) or (max-height: 9.1cm)){ 
     .main{
         display: grid;
         grid-template-areas: 
@@ -60,7 +60,7 @@ html.dark-mode,body.dark-mode{
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
-    @media ((max-height: 400px) or (min-width: 599px)){
+    @media ((max-height: 9.1cm) or (min-width: 13.5cm)){
         .main{
             display: grid;
             grid-template-areas: 
@@ -237,7 +237,7 @@ html.dark-mode,body.dark-mode{
         border-radius: 10px;
         box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.555);
     }
-    @media (max-width: 389px) {
+    @media (max-width: 8.8cm) {
     .slides {
         display: flex;
         transition: transform 0.5s ease-in-out;
@@ -256,14 +256,14 @@ html.dark-mode,body.dark-mode{
         width: 200px;
         font-size: 20px;
         height: 100%;
-        display: flex;
+/*         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         white-space: normal;  
         word-wrap: break-word;
     }
     }
-    @media (max-width: 599px) {
+    @media (max-width: 13.5cm) {
         .slider {
             width: 100%;
             height: 200px;
@@ -291,9 +291,9 @@ html.dark-mode,body.dark-mode{
         width: 200px;
         font-size: 20px;
         height: 100%;
-/*         display: flex;
+        display: flex;
         justify-content: center;
-        align-items: center; */
+        align-items: center;
         white-space: normal;  
         word-wrap: break-word;
     }
@@ -1187,7 +1187,7 @@ html.dark-mode,body.dark-mode{
 
 
 
-@media ((min-width: 600px) and (min-height: 401px)){
+@media ((min-width: 13.6) and (min-height: 9.2cm)){
     .main{
         display: grid;
         grid-template-areas: 
