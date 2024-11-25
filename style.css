@@ -265,7 +265,7 @@ html.dark-mode,body.dark-mode{
         .slides {
             display: flex;
             transition: transform 0.5s ease-in-out;
-            width: 100%;
+            width: 140%;
         }
         
         .slides a {
