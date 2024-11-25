@@ -1187,7 +1187,7 @@ html.dark-mode,body.dark-mode{
 
 
 
-@media ((min-width: 15.61cm) and (min-height: 9.11cm)){
+@media ((min-width: 15.61cm) and (max-height: 9.11cm)){
     .main{
         display: grid;
         grid-template-areas: 
