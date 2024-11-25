@@ -237,7 +237,7 @@ html.dark-mode,body.dark-mode{
         border-radius: 10px;
         box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.555);
     }
-    
+    @media (max-width: 389px) {
     .slides {
         display: flex;
         transition: transform 0.5s ease-in-out;
@@ -262,7 +262,7 @@ html.dark-mode,body.dark-mode{
         white-space: normal;  
         word-wrap: break-word;
     }
-     
+    }
     @media (max-width: 599px) {
         .slider {
             width: 100%;
