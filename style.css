@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
- @media ((max-width: 13.6cm) or (max-height: 9.1cm)){ 
+/*  @media ((max-width: 13.6cm) or (max-height: 9.1cm)){  */
     .main{
         display: grid;
         grid-template-areas: 
@@ -60,7 +60,7 @@ html.dark-mode,body.dark-mode{
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
-    @media ((max-height: 9.1cm) or (min-width: 13.5cm)){
+    @media ((max-height: 9.1cm) or (min-width: 13.59cm)){
         .main{
             display: grid;
             grid-template-areas: 
@@ -1178,7 +1178,7 @@ html.dark-mode,body.dark-mode{
         background-color: var(--hover-button-color);
     }
     
-} 
+/* }  */
 
 
 
@@ -1187,7 +1187,7 @@ html.dark-mode,body.dark-mode{
 
 
 
-@media ((min-width: 13.7cm) and (min-height: 9.2cm)){
+@media ((min-width: 14.61cm) and (min-height: 9.11cm)){
     .main{
         display: grid;
         grid-template-areas: 
