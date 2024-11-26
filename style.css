@@ -50,7 +50,7 @@ html.dark-mode,body.dark-mode{
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
-/*   @media ((max-width: 15.6cm) or (max-height: 9.1cm)){   */
+  @media ((max-width: 15.6cm) or (max-height: 9.1cm)){  
     .main{
         display: grid;
         grid-template-areas: 
@@ -1178,7 +1178,7 @@ html.dark-mode,body.dark-mode{
         background-color: var(--hover-button-color);
     }
     
-/*  }   */
+ }  
 
 
 
