@@ -587,7 +587,7 @@ html.dark-mode,body.dark-mode{
         padding: 3px;
         color: black;
         cursor: pointer;
-        width: 50px;
+        /*width: 50px;*/
         font-size: 12px;
         font-weight: bold;
         box-sizing: border-box;
