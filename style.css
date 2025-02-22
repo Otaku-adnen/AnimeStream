@@ -66,6 +66,21 @@ html.dark-mode, body.dark-mode {
         grid-template-rows: 1fr 10fr;
         height: 100vh;
     }
+    main nav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: var(--color);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.808);
+}
 }
 
 /* إعدادات للشاشات المتوسطة */
@@ -79,6 +94,21 @@ html.dark-mode, body.dark-mode {
         grid-template-rows: 1fr 4fr;
         height: 100vh;
     }
+    main nav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: var(--color);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.808);
+}
 }
 
 /* إعدادات للشاشات الكبيرة */
@@ -206,21 +236,7 @@ main #sideBarContainer {
     background-color: #33333391;
 }
 
-main nav {
-    height: 100vh;
-    width: 0;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    background-color: var(--color);
-    overflow-x: hidden;
-    transition: 0.3s;
-    padding-top: 60px;
-    color: white;
-    text-align: center;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.808);
-}
+
 
 main nav.open {
     width: 250px;
