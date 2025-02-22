@@ -1,4 +1,4 @@
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +55,6 @@ html.dark-mode, body.dark-mode {
     --hover-button-color-invers: rgb(238, 0, 0);
 }
 
-/* إعدادات للشاشات الصغيرة */
 @media (max-width: 589px) {
     .main {
         display: grid;
@@ -121,7 +120,6 @@ main nav ul a li {
 }
 }
 
-/* إعدادات للشاشات المتوسطة */
 @media (min-width: 590px) and (max-width: 1024px) {
     .main {
         display: grid;
@@ -187,7 +185,6 @@ main nav ul a li {
 }
 }
 
-/* إعدادات للشاشات الكبيرة */
 @media (min-width: 1025px) {
     .main {
         display: grid;
@@ -758,7 +755,7 @@ body .anime .videoPlay {
 body .anime
 
 
-/*
+*/
 *{
     margin: 0;
     padding: 0;
@@ -3040,4 +3037,4 @@ html.dark-mode,body.dark-mode{
     color: var(--text-color);
 }
 
-*/
+
