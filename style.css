@@ -92,6 +92,21 @@ html.dark-mode, body.dark-mode {
         grid-template-rows: 1fr 3fr;
         height: 100vh;
     }
+     main nav {
+        height: 100vh;
+        width: 250px; /* عرض الناف كما كان في السابق */
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        background-color: var(--color);
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 60px;
+        color: white;
+        text-align: center;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.808);
+    }
 }
 
 main header {
